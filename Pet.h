@@ -22,14 +22,14 @@ class Pet
         void play();
 
         // Method to check and display the pet's current hunger and happiness levels
-        void checkStatus() const;
+        void checkStatus();
 
         // Method to check if the pet is still alive (hunger and happiness are above zero)
         bool isAlive() const;
 
     private:
         // Method to decrease both hunger and happiness levels
-        void decreaseLevels();
+        void decreaseLevels(std::string state);
 };
 
 #endif
