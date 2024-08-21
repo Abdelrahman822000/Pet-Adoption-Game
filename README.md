@@ -18,7 +18,7 @@ The Pet Adoption Game is a C++ console application that allows users to adopt a 
 
 ## Features
 
-- **Adopt a Pet:** Choose a name and start taking care of your virtual pet.
+- **Adopt a Pet:** Choose a name and start caring for your virtual pet.
 - **Feed Pet:** Increase your pet's hunger level to keep it satisfied.
 - **Play with Pet:** Boost your pet's happiness by playing with it.
 - **Check Status:** Monitor the pet's hunger and happiness levels to ensure it stays healthy.
@@ -56,7 +56,7 @@ The Pet Adoption Game is a C++ console application that allows users to adopt a 
 1. **Start the Game:**
     - After running the `Pet.exe` executable, follow the on-screen instructions to adopt a pet.
     - Choose actions from the menu to feed, play with, or check the status of your pet.
-    - Ensure to keep your pet's hunger and happiness levels above critical thresholds to keep it alive.
+    - Ensure that your pet's hunger and happiness levels above critical thresholds to keep it alive.
 
 2. **Game Operations:**
     - **Adopt Pet:** Select this option to name and adopt a pet.
@@ -68,7 +68,14 @@ The Pet Adoption Game is a C++ console application that allows users to adopt a 
 ### Example Output
 
 ```
-Pet Adoption Game
+Pet Adoption Game 
+1. Adopt Pet      
+2. Feed Pet       
+3. Play with Pet  
+4. Check Status   
+5. End Game       
+Choose an option: 2
+You need to adopt a pet first.
 1. Adopt Pet
 2. Feed Pet
 3. Play with Pet
@@ -77,13 +84,38 @@ Pet Adoption Game
 Choose an option: 1
 Enter the name of your pet: Roy
 Congratulations! You adopted Roy!
-
+1. Adopt Pet
+2. Feed Pet
+3. Play with Pet
+4. Check Status
+5. End Game
 Choose an option: 2
 Roy has been fed.
-
+1. Adopt Pet
+2. Feed Pet
+3. Play with Pet
+4. Check Status
+5. End Game
+Choose an option: 3
+Roy is playing!
+1. Adopt Pet
+2. Feed Pet
+3. Play with Pet
+4. Check Status
+5. End Game
 Choose an option: 4
 Roy's hunger: 55
-Roy's happiness: 45
+Roy's happiness: 55
+1. Adopt Pet
+2. Feed Pet
+3. Play with Pet
+4. Check Status
+5. End Game
+Choose an option: 5
+Game Over.
+Roy's hunger: 53
+Roy's happiness: 53
+Thank you for playing!
 ```
 
 ## License
