@@ -35,7 +35,7 @@ The Pet Adoption Game is a C++ console application that allows users to adopt a 
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/Pet-Adoption-Game.git
+    git clone https://github.com/Abdelrahman822000/Pet-Adoption-Game.git
     cd Pet-Adoption-Game
     ```
 
